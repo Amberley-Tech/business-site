@@ -1,35 +1,33 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Services from "../components/Services";
-import Facts from "../components/Facts";
-import Portfolio from "../components/Portfolio";
-import Experience from "../components/Experience";
+import HeroTwo from "../components/HeroTwo";
+import Maxdi from "../components/Maxdi";
+import PortfolioTwo from "../components/PortfolioTwo";
+import Project from "../components/Project";
 import Testimonial from "../components/Testimonial";
-import Faq from "../components/Faq";
+import Pricing from "../components/Pricing";
+import Customer from "../components/Customer";
 import BlogHome from "../components/BlogHome";
 import LetsWork from "../components/LetsWork";
 import Footer from "../components/Footer";
 
-const HomeOne = () => {
+const HomeTwo = () => {
   return (
     <Layout pageTitle="Maxdi | Business & Digital Agency">
-      <Header heroLogo="/assets/images/logo/logo.svg"
+      <Header heroLogo="/assets/images/logo/Logo-white.svg"
+      headerClass="header__area-2"
+      menuClass="main-menu-2"
+      sideMenuClass="icon-white"
       />      
       <main>
-        <Hero/>      
-        <About subTitle="About Us"
-        titleFirst="We are here to make your"
-        titleSecond="product look more elegant and stylish"
-        />   
-        <Services extraClass="mt-75"/>      
-        <Facts/>      
-        <Portfolio/>      
-        <Experience/>      
-        <Testimonial testimonialArea="testimonials__area" paddingTop="pt-120"/>      
-        <Faq/>      
+        <HeroTwo/>      
+        <Maxdi/>      
+        <PortfolioTwo extraClass="pb-120"/>      
+        <Project subTitle="25 Years Of Experience"/>       
+        <Testimonial testimonialArea="testimonials__area-2" paddingTop="pt-110"/>     
+        <Pricing extraClass="mt-105"/>      
+        <Customer/>      
         <BlogHome extraClass="pt-60"/>      
         <LetsWork/>
       </main> 
@@ -38,4 +36,4 @@ const HomeOne = () => {
   );
 };
 
-export default HomeOne;
+export default HomeTwo;
