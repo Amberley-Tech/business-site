@@ -12,11 +12,12 @@ import Footer from "../components/Footer";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="Maxdi | Business & Digital Agency">
+        <Layout pageTitle="Amberley Tech | Business & Digital Agency">
             <PageHeader title="About us" crumbTitle="About us"/>
-            <Header heroLogo="/assets/images/logo/logo.svg"
+            <Header heroLogo="/assets/images/logo/Amberley-Logo2.svg"
             headerClass="header__white"
             menuClass="main-menu-3"
+            darkLogo
             />      
             <main>
                 <About subTitle="We are Maxdi"

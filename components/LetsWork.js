@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const LetsWork = () => {
     return (
-        <section className="lets-work__area p-relative pt-165 pb-160">
+        <section className="lets-work__area p-relative pt-165 pb-160 mt-80">
             <div className="lets-work__shape">
                 <img className="lets-work-shape-1" src="assets/images/shape/lets-work/lets-work-s-1.png" alt=""/>
                 <img className="lets-work-shape-2" src="assets/images/shape/lets-work/lets-work-s-2.png" alt=""/>
