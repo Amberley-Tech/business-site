@@ -20,32 +20,7 @@ const Footer = () => {
           />
         </div>
         <Container>
-          <Row className='mb-145'>
-            <Col xxl={6} xl={7} lg={8} md={10}>
-              <div className='footer__newsletter'>
-                <SectionTitle
-                  subTitle='Join Our Community'
-                  titleFirst='Subscribe for newsletter'
-                />
-              </div>
-            </Col>
-            <Col xxl={{ span: 5, offset: 1 }} xl={5} lg={4} md={4}>
-              <div className='footer__subscribe'>
-                <form action='#'>
-                  <div className='footer__subscribe-input'>
-                    <div className='form-group'>
-                      <input
-                        type='email'
-                        className='form-control'
-                        placeholder='Email address'
-                      />
-                    </div>
-                    <button type='submit'>Subscribe</button>
-                  </div>
-                </form>
-              </div>
-            </Col>
-          </Row>
+       
           <Row className='mb-50'>
             <Col xl={4} lg={4} md={10} sm={10}>
               <div className='footer__widget wow fadeIn' data-wow-delay='.5s'>

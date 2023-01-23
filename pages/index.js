@@ -11,6 +11,7 @@ import Customer from '../components/Customer';
 import BlogHome from '../components/BlogHome';
 import LetsWork from '../components/LetsWork';
 import Footer from '../components/Footer';
+import DevelopmentProcess from '../components/DevelopmentProcess';
 
 const HomeTwo = () => {
   return (
@@ -23,8 +24,9 @@ const HomeTwo = () => {
       />
       <main>
         <HeroTwo />
+        <DevelopmentProcess />
         {/* <Maxdi/>       */}
-        <PortfolioTwo extraClass='pb-120' />
+        {/* <PortfolioTwo extraClass='pb-120' /> */}
         {/* <Project subTitle="Many Years Of Experience"/>        */}
         {/* <Testimonial testimonialArea="testimonials__area-2" paddingTop="pt-110"/>      */}
         {/* <Pricing extraClass="mt-105"/>       */}
