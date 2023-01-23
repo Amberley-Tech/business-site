@@ -58,8 +58,8 @@ const Footer = () => {
                     <span>Amberley</span>
                   </di>
                   <p>
-                    Core object made kolor adipisci elit sed diam nonummy nibh
-                    euismod tincidunt laoreet dolore magna grinjon.
+                    Accelerate your Business with solutions tailored to suit
+                    your needs.
                   </p>
                 </div>
                 <div className='footer__widget-social'>
@@ -86,100 +86,36 @@ const Footer = () => {
                 </div>
               </div>
             </Col>
-            <Col xl={2} lg={2} md={4} sm={6}>
-              <div className='footer__widget'>
-                <div className='footer__widget-title'>
-                  <h5>Our Services</h5>
-                </div>
-                <div className='footer__widget-link'>
-                  <ul>
-                    <li>
-                      <Link href='/services-details'>
-                        <a>Development</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/services-details'>
-                        <a>marketing</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/services-details'>
-                        <a>UI/UX Design</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/services-details'>
-                        <a>E-commerce</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/services-details'>
-                        <a>Content Writing</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </Col>
-            <Col xl={2} lg={2} md={4} sm={6}>
-              <div className='footer__widget footer__widget-mt-2'>
-                <div className='footer__widget-title'>
-                  <h5>Company</h5>
-                </div>
-                <div className='footer__widget-link'>
-                  <ul>
-                    <li>
-                      <Link href='/about'>
-                        <a>About us</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/portfolio'>
-                        <a>Portfolio</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/team'>
-                        <a>Our Team</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/contact'>
-                        <a>Contact</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/services'>
-                        <a>Services</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </Col>
-            <Col xl={4} lg={4} md={4} sm={10}>
+
+            <Col
+              xl={{ span: 4, offset: 4 }}
+              lg={{ span: 4, offset: 4 }}
+              md={10}
+              sm={10}
+            >
               <div className='footer__widget footer__widget-mt'>
                 <div className='footer__widget-title'>
                   <h5>Stay Connected</h5>
                 </div>
                 <div className='footer__widget-info'>
                   <div className='footer__widget-address'>
-                    <p>66 Broklyn Street, New York United States of America</p>
+                    <p>
+                      5/497, Izzathnagar, Kondapur, Hyderabad, Telangana, India.
+                    </p>
                   </div>
                   <div className='footer__widget-phone d-flex align-items-center'>
                     <i className='fa-solid fa-phone'></i>
                     <p>
                       <Link href='tel:+1166442200'>
-                        <a>+11 66 44 22 00</a>
+                        <a>+91 9849084400</a>
                       </Link>
                     </p>
                   </div>
                   <div className='footer__widget-email d-flex align-items-center'>
                     <i className='fa-solid fa-paper-plane'></i>
                     <p>
-                      <Link href='mailto:info@example.com'>
-                        <a>info@example.com</a>
+                      <Link href='mailto:contact@amberley.tech'>
+                        <a>contact@amberley.tech</a>
                       </Link>
                     </p>
                   </div>

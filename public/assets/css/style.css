@@ -7717,6 +7717,18 @@ textarea {
   position: relative;
   z-index: 5;
 }
+.team__links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  z-index: 5;
+  position: relative;
+  margin-top: 12px;
+}
+.team__links svg {
+  color: #fff;
+  cursor: pointer;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .team__position {
     font-size: 14px;

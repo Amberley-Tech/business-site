@@ -23,20 +23,20 @@ const Experience = ({extraClass}) => {
                     <Row className="align-items-center">
                         <Col xl={5} lg={6} md={9} sm={10}>
                             <div className="experience__content">
-                                <SectionTitle subTitle="25 Years Of Experience"
+                                <SectionTitle subTitle="Many Years Of Experience"
                                 titleFirst="Ready to get our" titleSecond="digital services?"/>
-                                <p>That&apos;s not on the roadmap losing these latest prospects is like putting socks on an octopus to give you a heads-up.</p>
+                                <p>Unlock your business potential with intuitive advanced best software development company</p>
                                 <Link href="/contact">
                                     <a className="m-btn mt-35">Start a Project</a>
                                 </Link>
                             </div> 
                         </Col>
                         <Col xl={7} lg={6} md={9}>
-                            <div className="experience__video-btn">                        
+                            {/* <div className="experience__video-btn">                        
                                 <span onClick={openModal}><i className="fas fa-play"></i></span>                            
-                            </div>
+                            </div> */}
                             <div className="experience__thumb text-end">
-                                <img src="/assets/images/experience/experience-img.png" alt=""/>
+                                <img src="/assets/images/about/potential.png" alt=""/>
                             </div>
                         </Col>                        
                     </Row>
