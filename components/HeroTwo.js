@@ -9,7 +9,7 @@ const HERO_DATA = [
     serviceIcon: '/assets/images/icon/s2-icon-1.png',
     serviceTitle: 'UI/UX Design',
     serviceDesc:
-      'Beautiful and Influential websites & apps that are mobile friendly quick to load and help drive sales giving you a solid presence online.',
+      'Design experts at Amberley will help you to ideate, strategize and formulate the best possible design for your business goals.',
     serviceLink: '/services-details',
     bgClass: 'single__bg-pink',
     iconClass: 'single__service-icon-pink',
@@ -19,7 +19,7 @@ const HERO_DATA = [
     serviceIcon: '/assets/images/icon/s2-icon-2.png',
     serviceTitle: 'Web Development',
     serviceDesc:
-      'Beautiful and Influential websites & apps that are mobile friendly quick to load and help drive sales giving you a solid presence online.',
+      'Scale up your business with Amberley`s cost-effective, robust, and secure custom web app development services.',
     serviceLink: '/services-details',
     bgClass: 'single__bg-yellow',
     iconClass: 'single__service-icon-yellow',
@@ -29,7 +29,7 @@ const HERO_DATA = [
     serviceIcon: '/assets/images/icon/s2-icon-3.png',
     serviceTitle: 'App Development',
     serviceDesc:
-      'Beautiful and Influential websites & apps that are mobile friendly quick to load and help drive sales giving you a solid presence online.',
+      'Scale up your business with Amberley`s cost-effective, robust, and secure custom mobile app development services.',
     serviceLink: '/services-details',
     bgClass: 'single__bg-green',
     iconClass: 'single__service-icon-green',
@@ -86,7 +86,7 @@ const HeroTwo = () => {
                 </h2>
                 <p>
                   Accelerate your Business with solutions tailored to suit your
-                  needs. 
+                  needs.
                 </p>
                 <Link href='/contact'>
                   <a className='m-btn mt-35'>Get Started</a>

@@ -97,19 +97,19 @@ const Header = ({
               <div className='contact-list mb-30'>
                 <ul>
                   <li>
-                    <i className='fas fa-map-marker-alt'></i>66 Broklyn Street,
-                    New York United States of America
+                    <i className='fas fa-map-marker-alt'></i>5/497, Izzathnagar,
+                    Kondapur, Hyderabad, Telangana, India.
                   </li>
                   <li>
                     <i className='far fa-paper-plane'></i>
                     <Link href='mailto:info@example.com'>
-                      <a>info@example.com</a>
+                      <a>contact@amberley.tech</a>
                     </Link>
                   </li>
                   <li>
                     <i className='fas fa-phone'></i>
                     <Link href='tel:+1166442200'>
-                      <a>+11 66 44 22 00</a>
+                      <a>+91 9849084400</a>
                     </Link>
                   </li>
                 </ul>
