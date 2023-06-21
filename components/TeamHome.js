@@ -4,17 +4,17 @@ import SectionTitle from './SectionTitle';
 import TeamMemberCard from './TeamMemberCard';
 
 const MEMBER_DATA = [
-  {
-    memberImg: '/assets/images/team/member-5.png',
-    memberLink: '/single-team',
-    memberName: 'Sai Kranthi',
-    memberPosition: 'Fullstack Developer',
-    links: {
-      linkedIn: 'https://www.linkedin.com/in/iamsaikranthi/',
-      github: 'https://github.com/kranthicodes',
-      portfolio: 'https://kranthicodes.com',
-    },
-  },
+  // {
+  //   memberImg: '/assets/images/team/member-5.png',
+  //   memberLink: '/single-team',
+  //   memberName: 'Sai Kranthi',
+  //   memberPosition: 'Fullstack Developer',
+  //   links: {
+  //     linkedIn: 'https://www.linkedin.com/in/iamsaikranthi/',
+  //     github: 'https://github.com/kranthicodes',
+  //     portfolio: 'https://kranthicodes.com',
+  //   },
+  // },
   {
     memberImg: '/assets/images/team/member-6.png',
     memberLink: '/single-team',
